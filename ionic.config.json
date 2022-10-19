@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-watchkit-example",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
