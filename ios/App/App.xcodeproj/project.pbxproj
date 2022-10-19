@@ -1,0 +1,1098 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FAD9763203C412B000D30F8 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2FAD9762203C412B000D30F8 /* config.xml */; };
+		50379B232058CBB4000EE86E /* capacitor.config.json in Resources */ = {isa = PBXBuildFile; fileRef = 50379B222058CBB4000EE86E /* capacitor.config.json */; };
+		504EC3081FED79650016851F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EC3071FED79650016851F /* AppDelegate.swift */; };
+		504EC30D1FED79650016851F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504EC30B1FED79650016851F /* Main.storyboard */; };
+		504EC30F1FED79650016851F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504EC30E1FED79650016851F /* Assets.xcassets */; };
+		504EC3121FED79650016851F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504EC3101FED79650016851F /* LaunchScreen.storyboard */; };
+		50A34EF127C973180088DD9A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A34EEF27C973180088DD9A /* Interface.storyboard */; };
+		50A34EF327C9731B0088DD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A34EF227C9731B0088DD9A /* Assets.xcassets */; };
+		50A34EF927C9731B0088DD9A /* IonifitsWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 50A34EF827C9731B0088DD9A /* IonifitsWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		50A34EFE27C9731B0088DD9A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34EFD27C9731B0088DD9A /* InterfaceController.swift */; };
+		50A34F0027C9731B0088DD9A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34EFF27C9731B0088DD9A /* ExtensionDelegate.swift */; };
+		50A34F0227C9731B0088DD9A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F0127C9731B0088DD9A /* NotificationController.swift */; };
+		50A34F0427C9731B0088DD9A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F0327C9731B0088DD9A /* ComplicationController.swift */; };
+		50A34F0627C9731C0088DD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A34F0527C9731C0088DD9A /* Assets.xcassets */; };
+		50A34F1227C9731C0088DD9A /* IonifitsWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F1127C9731C0088DD9A /* IonifitsWatchTests.swift */; };
+		50A34F1C27C9731C0088DD9A /* IonifitsWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F1B27C9731C0088DD9A /* IonifitsWatchUITests.swift */; };
+		50A34F1E27C9731C0088DD9A /* IonifitsWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F1D27C9731C0088DD9A /* IonifitsWatchUITestsLaunchTests.swift */; };
+		50A34F2127C9731C0088DD9A /* IonifitsWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 50A34EED27C973180088DD9A /* IonifitsWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		50A34F4727C98A990088DD9A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4027C98A990088DD9A /* Logger.swift */; };
+		50A34F4827C98A990088DD9A /* SessionTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4127C98A990088DD9A /* SessionTransfer.swift */; };
+		50A34F4927C98A990088DD9A /* CommandStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4227C98A990088DD9A /* CommandStatus.swift */; };
+		50A34F4A27C98A990088DD9A /* FileTransferObservers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4327C98A990088DD9A /* FileTransferObservers.swift */; };
+		50A34F4B27C98A990088DD9A /* TestDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4427C98A990088DD9A /* TestDataProvider.swift */; };
+		50A34F4C27C98A990088DD9A /* SessionCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4527C98A990088DD9A /* SessionCommands.swift */; };
+		50A34F4D27C98A990088DD9A /* SessionDelegater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4627C98A990088DD9A /* SessionDelegater.swift */; };
+		50A34F4E27C98C120088DD9A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4027C98A990088DD9A /* Logger.swift */; };
+		50A34F4F27C98C160088DD9A /* SessionDelegater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4627C98A990088DD9A /* SessionDelegater.swift */; };
+		50A34F5027C98C160088DD9A /* SessionTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4127C98A990088DD9A /* SessionTransfer.swift */; };
+		50A34F5127C98C160088DD9A /* CommandStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4227C98A990088DD9A /* CommandStatus.swift */; };
+		50A34F5227C98C160088DD9A /* TestDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4427C98A990088DD9A /* TestDataProvider.swift */; };
+		50A34F5327C98C160088DD9A /* FileTransferObservers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4327C98A990088DD9A /* FileTransferObservers.swift */; };
+		50A34F5427C98C160088DD9A /* SessionCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F4527C98A990088DD9A /* SessionCommands.swift */; };
+		50A34F5827C98FDC0088DD9A /* WatchPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F5727C98FDC0088DD9A /* WatchPlugin.swift */; };
+		50A34F5B27C990BA0088DD9A /* WatchPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A34F5A27C990BA0088DD9A /* WatchPlugin.m */; };
+		A084ECDBA7D38E1E42DFC39D /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF277DCFFFF123FFC6DF26C7 /* Pods_App.framework */; };
+		C98031ED25DC0AA500681A0A /* public in Resources */ = {isa = PBXBuildFile; fileRef = C98031EC25DC0AA500681A0A /* public */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50A34EFA27C9731B0088DD9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504EC2FC1FED79650016851F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A34EF727C9731B0088DD9A;
+			remoteInfo = "IonifitsWatch WatchKit Extension";
+		};
+		50A34F0E27C9731C0088DD9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504EC2FC1FED79650016851F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A34EF727C9731B0088DD9A;
+			remoteInfo = "IonifitsWatch WatchKit Extension";
+		};
+		50A34F1827C9731C0088DD9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504EC2FC1FED79650016851F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A34EEC27C973180088DD9A;
+			remoteInfo = IonifitsWatch;
+		};
+		50A34F1F27C9731C0088DD9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504EC2FC1FED79650016851F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A34EEC27C973180088DD9A;
+			remoteInfo = IonifitsWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50A34F2227C9731C0088DD9A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				50A34F2127C9731C0088DD9A /* IonifitsWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A34F2527C9731C0088DD9A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				50A34EF927C9731B0088DD9A /* IonifitsWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2FAD9762203C412B000D30F8 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		50379B222058CBB4000EE86E /* capacitor.config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = capacitor.config.json; sourceTree = "<group>"; };
+		504EC3041FED79650016851F /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504EC3071FED79650016851F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		504EC30C1FED79650016851F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		504EC30E1FED79650016851F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504EC3111FED79650016851F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		504EC3131FED79650016851F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A34EED27C973180088DD9A /* IonifitsWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IonifitsWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A34EF027C973180088DD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		50A34EF227C9731B0088DD9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A34EF827C9731B0088DD9A /* IonifitsWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IonifitsWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A34EFD27C9731B0088DD9A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		50A34EFF27C9731B0088DD9A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		50A34F0127C9731B0088DD9A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		50A34F0327C9731B0088DD9A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		50A34F0527C9731C0088DD9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A34F0727C9731C0088DD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A34F0827C9731C0088DD9A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		50A34F0D27C9731C0088DD9A /* IonifitsWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IonifitsWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A34F1127C9731C0088DD9A /* IonifitsWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonifitsWatchTests.swift; sourceTree = "<group>"; };
+		50A34F1727C9731C0088DD9A /* IonifitsWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IonifitsWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A34F1B27C9731C0088DD9A /* IonifitsWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonifitsWatchUITests.swift; sourceTree = "<group>"; };
+		50A34F1D27C9731C0088DD9A /* IonifitsWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonifitsWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50A34F4027C98A990088DD9A /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		50A34F4127C98A990088DD9A /* SessionTransfer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTransfer.swift; sourceTree = "<group>"; };
+		50A34F4227C98A990088DD9A /* CommandStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandStatus.swift; sourceTree = "<group>"; };
+		50A34F4327C98A990088DD9A /* FileTransferObservers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTransferObservers.swift; sourceTree = "<group>"; };
+		50A34F4427C98A990088DD9A /* TestDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDataProvider.swift; sourceTree = "<group>"; };
+		50A34F4527C98A990088DD9A /* SessionCommands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionCommands.swift; sourceTree = "<group>"; };
+		50A34F4627C98A990088DD9A /* SessionDelegater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegater.swift; sourceTree = "<group>"; };
+		50A34F5727C98FDC0088DD9A /* WatchPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPlugin.swift; sourceTree = "<group>"; };
+		50A34F5927C990B90088DD9A /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
+		50A34F5A27C990BA0088DD9A /* WatchPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchPlugin.m; sourceTree = "<group>"; };
+		AF277DCFFFF123FFC6DF26C7 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF51FD2D460BCFE21FA515B2 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
+		C98031EC25DC0AA500681A0A /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
+		C98A0C1426C2D5D900251DFB /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
+		FC68EB0AF532CFC21C3344DD /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504EC3011FED79650016851F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A084ECDBA7D38E1E42DFC39D /* Pods_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A34EF527C9731B0088DD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A34F0A27C9731C0088DD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A34F1427C9731C0088DD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E609D77DE2B4757B83AED314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E2DDA53C4D2A4D1A88CE4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF277DCFFFF123FFC6DF26C7 /* Pods_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		504EC2FB1FED79650016851F = {
+			isa = PBXGroup;
+			children = (
+				50A34F3F27C98A990088DD9A /* Shared */,
+				504EC3061FED79650016851F /* App */,
+				50A34EEE27C973180088DD9A /* IonifitsWatch */,
+				50A34EFC27C9731B0088DD9A /* IonifitsWatch WatchKit Extension */,
+				50A34F1027C9731C0088DD9A /* IonifitsWatchTests */,
+				50A34F1A27C9731C0088DD9A /* IonifitsWatchUITests */,
+				504EC3051FED79650016851F /* Products */,
+				7F8756D8B27F46E3366F6CEA /* Pods */,
+				27E2DDA53C4D2A4D1A88CE4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		504EC3051FED79650016851F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504EC3041FED79650016851F /* App.app */,
+				50A34EED27C973180088DD9A /* IonifitsWatch.app */,
+				50A34EF827C9731B0088DD9A /* IonifitsWatch WatchKit Extension.appex */,
+				50A34F0D27C9731C0088DD9A /* IonifitsWatchTests.xctest */,
+				50A34F1727C9731C0088DD9A /* IonifitsWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504EC3061FED79650016851F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C98A0C1426C2D5D900251DFB /* App.entitlements */,
+				C98031EC25DC0AA500681A0A /* public */,
+				50379B222058CBB4000EE86E /* capacitor.config.json */,
+				504EC3071FED79650016851F /* AppDelegate.swift */,
+				504EC30B1FED79650016851F /* Main.storyboard */,
+				504EC30E1FED79650016851F /* Assets.xcassets */,
+				504EC3101FED79650016851F /* LaunchScreen.storyboard */,
+				504EC3131FED79650016851F /* Info.plist */,
+				2FAD9762203C412B000D30F8 /* config.xml */,
+				50A34F5727C98FDC0088DD9A /* WatchPlugin.swift */,
+				50A34F5A27C990BA0088DD9A /* WatchPlugin.m */,
+				50A34F5927C990B90088DD9A /* App-Bridging-Header.h */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		50A34EEE27C973180088DD9A /* IonifitsWatch */ = {
+			isa = PBXGroup;
+			children = (
+				50A34EEF27C973180088DD9A /* Interface.storyboard */,
+				50A34EF227C9731B0088DD9A /* Assets.xcassets */,
+			);
+			path = IonifitsWatch;
+			sourceTree = "<group>";
+		};
+		50A34EFC27C9731B0088DD9A /* IonifitsWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				50A34EFD27C9731B0088DD9A /* InterfaceController.swift */,
+				50A34EFF27C9731B0088DD9A /* ExtensionDelegate.swift */,
+				50A34F0127C9731B0088DD9A /* NotificationController.swift */,
+				50A34F0327C9731B0088DD9A /* ComplicationController.swift */,
+				50A34F0527C9731C0088DD9A /* Assets.xcassets */,
+				50A34F0727C9731C0088DD9A /* Info.plist */,
+				50A34F0827C9731C0088DD9A /* PushNotificationPayload.apns */,
+			);
+			path = "IonifitsWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		50A34F1027C9731C0088DD9A /* IonifitsWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				50A34F1127C9731C0088DD9A /* IonifitsWatchTests.swift */,
+			);
+			path = IonifitsWatchTests;
+			sourceTree = "<group>";
+		};
+		50A34F1A27C9731C0088DD9A /* IonifitsWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50A34F1B27C9731C0088DD9A /* IonifitsWatchUITests.swift */,
+				50A34F1D27C9731C0088DD9A /* IonifitsWatchUITestsLaunchTests.swift */,
+			);
+			path = IonifitsWatchUITests;
+			sourceTree = "<group>";
+		};
+		50A34F3F27C98A990088DD9A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				50A34F4027C98A990088DD9A /* Logger.swift */,
+				50A34F4127C98A990088DD9A /* SessionTransfer.swift */,
+				50A34F4227C98A990088DD9A /* CommandStatus.swift */,
+				50A34F4327C98A990088DD9A /* FileTransferObservers.swift */,
+				50A34F4427C98A990088DD9A /* TestDataProvider.swift */,
+				50A34F4527C98A990088DD9A /* SessionCommands.swift */,
+				50A34F4627C98A990088DD9A /* SessionDelegater.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7F8756D8B27F46E3366F6CEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC68EB0AF532CFC21C3344DD /* Pods-App.debug.xcconfig */,
+				AF51FD2D460BCFE21FA515B2 /* Pods-App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504EC3031FED79650016851F /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504EC3161FED79650016851F /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				6634F4EFEBD30273BCE97C65 /* [CP] Check Pods Manifest.lock */,
+				504EC3001FED79650016851F /* Sources */,
+				504EC3011FED79650016851F /* Frameworks */,
+				504EC3021FED79650016851F /* Resources */,
+				9592DBEFFC6D2A0C8D5DEB22 /* [CP] Embed Pods Frameworks */,
+				50A34F2227C9731C0088DD9A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A34F2027C9731C0088DD9A /* PBXTargetDependency */,
+			);
+			name = App;
+			productName = App;
+			productReference = 504EC3041FED79650016851F /* App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50A34EEC27C973180088DD9A /* IonifitsWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A34F2D27C9731C0088DD9A /* Build configuration list for PBXNativeTarget "IonifitsWatch" */;
+			buildPhases = (
+				50A34EEB27C973180088DD9A /* Resources */,
+				50A34F2527C9731C0088DD9A /* Embed App Extensions */,
+				E609D77DE2B4757B83AED314 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A34EFB27C9731B0088DD9A /* PBXTargetDependency */,
+			);
+			name = IonifitsWatch;
+			productName = IonifitsWatch;
+			productReference = 50A34EED27C973180088DD9A /* IonifitsWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		50A34EF727C9731B0088DD9A /* IonifitsWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A34F2C27C9731C0088DD9A /* Build configuration list for PBXNativeTarget "IonifitsWatch WatchKit Extension" */;
+			buildPhases = (
+				50A34EF427C9731B0088DD9A /* Sources */,
+				50A34EF527C9731B0088DD9A /* Frameworks */,
+				50A34EF627C9731B0088DD9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IonifitsWatch WatchKit Extension";
+			productName = "IonifitsWatch WatchKit Extension";
+			productReference = 50A34EF827C9731B0088DD9A /* IonifitsWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		50A34F0C27C9731C0088DD9A /* IonifitsWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A34F2E27C9731C0088DD9A /* Build configuration list for PBXNativeTarget "IonifitsWatchTests" */;
+			buildPhases = (
+				50A34F0927C9731C0088DD9A /* Sources */,
+				50A34F0A27C9731C0088DD9A /* Frameworks */,
+				50A34F0B27C9731C0088DD9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A34F0F27C9731C0088DD9A /* PBXTargetDependency */,
+			);
+			name = IonifitsWatchTests;
+			productName = IonifitsWatchTests;
+			productReference = 50A34F0D27C9731C0088DD9A /* IonifitsWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50A34F1627C9731C0088DD9A /* IonifitsWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A34F2F27C9731C0088DD9A /* Build configuration list for PBXNativeTarget "IonifitsWatchUITests" */;
+			buildPhases = (
+				50A34F1327C9731C0088DD9A /* Sources */,
+				50A34F1427C9731C0088DD9A /* Frameworks */,
+				50A34F1527C9731C0088DD9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A34F1927C9731C0088DD9A /* PBXTargetDependency */,
+			);
+			name = IonifitsWatchUITests;
+			productName = IonifitsWatchUITests;
+			productReference = 50A34F1727C9731C0088DD9A /* IonifitsWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504EC2FC1FED79650016851F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					504EC3031FED79650016851F = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1320;
+						ProvisioningStyle = Automatic;
+					};
+					50A34EEC27C973180088DD9A = {
+						CreatedOnToolsVersion = 13.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					50A34EF727C9731B0088DD9A = {
+						CreatedOnToolsVersion = 13.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					50A34F0C27C9731C0088DD9A = {
+						CreatedOnToolsVersion = 13.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50A34EF727C9731B0088DD9A;
+					};
+					50A34F1627C9731C0088DD9A = {
+						CreatedOnToolsVersion = 13.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50A34EEC27C973180088DD9A;
+					};
+				};
+			};
+			buildConfigurationList = 504EC2FF1FED79650016851F /* Build configuration list for PBXProject "App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504EC2FB1FED79650016851F;
+			productRefGroup = 504EC3051FED79650016851F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504EC3031FED79650016851F /* App */,
+				50A34EEC27C973180088DD9A /* IonifitsWatch */,
+				50A34EF727C9731B0088DD9A /* IonifitsWatch WatchKit Extension */,
+				50A34F0C27C9731C0088DD9A /* IonifitsWatchTests */,
+				50A34F1627C9731C0088DD9A /* IonifitsWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504EC3021FED79650016851F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504EC3121FED79650016851F /* LaunchScreen.storyboard in Resources */,
+				504EC30F1FED79650016851F /* Assets.xcassets in Resources */,
+				50379B232058CBB4000EE86E /* capacitor.config.json in Resources */,
+				C98031ED25DC0AA500681A0A /* public in Resources */,
+				504EC30D1FED79650016851F /* Main.storyboard in Resources */,
+				2FAD9763203C412B000D30F8 /* config.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A34EEB27C973180088DD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A34EF327C9731B0088DD9A /* Assets.xcassets in Resources */,
+				50A34EF127C973180088DD9A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A34EF627C9731B0088DD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A34F0627C9731C0088DD9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A34F0B27C9731C0088DD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A34F1527C9731C0088DD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6634F4EFEBD30273BCE97C65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9592DBEFFC6D2A0C8D5DEB22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App/Pods-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504EC3001FED79650016851F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A34F5827C98FDC0088DD9A /* WatchPlugin.swift in Sources */,
+				50A34F4A27C98A990088DD9A /* FileTransferObservers.swift in Sources */,
+				504EC3081FED79650016851F /* AppDelegate.swift in Sources */,
+				50A34F4D27C98A990088DD9A /* SessionDelegater.swift in Sources */,
+				50A34F5B27C990BA0088DD9A /* WatchPlugin.m in Sources */,
+				50A34F4927C98A990088DD9A /* CommandStatus.swift in Sources */,
+				50A34F4727C98A990088DD9A /* Logger.swift in Sources */,
+				50A34F4C27C98A990088DD9A /* SessionCommands.swift in Sources */,
+				50A34F4B27C98A990088DD9A /* TestDataProvider.swift in Sources */,
+				50A34F4827C98A990088DD9A /* SessionTransfer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A34EF427C9731B0088DD9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A34F5327C98C160088DD9A /* FileTransferObservers.swift in Sources */,
+				50A34F4F27C98C160088DD9A /* SessionDelegater.swift in Sources */,
+				50A34F5227C98C160088DD9A /* TestDataProvider.swift in Sources */,
+				50A34F5127C98C160088DD9A /* CommandStatus.swift in Sources */,
+				50A34F4E27C98C120088DD9A /* Logger.swift in Sources */,
+				50A34F5427C98C160088DD9A /* SessionCommands.swift in Sources */,
+				50A34F0227C9731B0088DD9A /* NotificationController.swift in Sources */,
+				50A34F0427C9731B0088DD9A /* ComplicationController.swift in Sources */,
+				50A34F0027C9731B0088DD9A /* ExtensionDelegate.swift in Sources */,
+				50A34F5027C98C160088DD9A /* SessionTransfer.swift in Sources */,
+				50A34EFE27C9731B0088DD9A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A34F0927C9731C0088DD9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A34F1227C9731C0088DD9A /* IonifitsWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A34F1327C9731C0088DD9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A34F1C27C9731C0088DD9A /* IonifitsWatchUITests.swift in Sources */,
+				50A34F1E27C9731C0088DD9A /* IonifitsWatchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50A34EFB27C9731B0088DD9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A34EF727C9731B0088DD9A /* IonifitsWatch WatchKit Extension */;
+			targetProxy = 50A34EFA27C9731B0088DD9A /* PBXContainerItemProxy */;
+		};
+		50A34F0F27C9731C0088DD9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A34EF727C9731B0088DD9A /* IonifitsWatch WatchKit Extension */;
+			targetProxy = 50A34F0E27C9731C0088DD9A /* PBXContainerItemProxy */;
+		};
+		50A34F1927C9731C0088DD9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A34EEC27C973180088DD9A /* IonifitsWatch */;
+			targetProxy = 50A34F1827C9731C0088DD9A /* PBXContainerItemProxy */;
+		};
+		50A34F2027C9731C0088DD9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A34EEC27C973180088DD9A /* IonifitsWatch */;
+			targetProxy = 50A34F1F27C9731C0088DD9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		504EC30B1FED79650016851F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504EC30C1FED79650016851F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		504EC3101FED79650016851F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504EC3111FED79650016851F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		50A34EEF27C973180088DD9A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A34EF027C973180088DD9A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		504EC3141FED79650016851F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		504EC3151FED79650016851F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504EC3171FED79650016851F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC68EB0AF532CFC21C3344DD /* Pods-App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = App/App.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YN2HU59K8;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.14;
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEBUG\"";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.demoapp.ionifits;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG USE_PUSH";
+				SWIFT_OBJC_BRIDGING_HEADER = "App/App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		504EC3181FED79650016851F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF51FD2D460BCFE21FA515B2 /* Pods-App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = App/App.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YN2HU59K8;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.14;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.demoapp.ionifits;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = USE_PUSH;
+				SWIFT_OBJC_BRIDGING_HEADER = "App/App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50A34F2327C9731C0088DD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN2HU59K8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = IonifitsWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = IonifitsWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.ionic.demoapp.ionifits;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.demoapp.ionifits.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		50A34F2427C9731C0088DD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN2HU59K8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = IonifitsWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = IonifitsWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.ionic.demoapp.ionifits;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.demoapp.ionifits.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		50A34F2627C9731C0088DD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN2HU59K8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IonifitsWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "IonifitsWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.demoapp.ionifits.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		50A34F2727C9731C0088DD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN2HU59K8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IonifitsWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "IonifitsWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.demoapp.ionifits.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		50A34F2827C9731C0088DD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN2HU59K8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.demoapp.ionifits.IonifitsWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IonifitsWatch WatchKit Extension.appex/IonifitsWatch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		50A34F2927C9731C0088DD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN2HU59K8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.demoapp.ionifits.IonifitsWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IonifitsWatch WatchKit Extension.appex/IonifitsWatch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		50A34F2A27C9731C0088DD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN2HU59K8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.demoapp.ionifits.IonifitsWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = IonifitsWatch;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		50A34F2B27C9731C0088DD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN2HU59K8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.demoapp.ionifits.IonifitsWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = IonifitsWatch;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504EC2FF1FED79650016851F /* Build configuration list for PBXProject "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504EC3141FED79650016851F /* Debug */,
+				504EC3151FED79650016851F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504EC3161FED79650016851F /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504EC3171FED79650016851F /* Debug */,
+				504EC3181FED79650016851F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A34F2C27C9731C0088DD9A /* Build configuration list for PBXNativeTarget "IonifitsWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A34F2627C9731C0088DD9A /* Debug */,
+				50A34F2727C9731C0088DD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A34F2D27C9731C0088DD9A /* Build configuration list for PBXNativeTarget "IonifitsWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A34F2327C9731C0088DD9A /* Debug */,
+				50A34F2427C9731C0088DD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A34F2E27C9731C0088DD9A /* Build configuration list for PBXNativeTarget "IonifitsWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A34F2827C9731C0088DD9A /* Debug */,
+				50A34F2927C9731C0088DD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A34F2F27C9731C0088DD9A /* Build configuration list for PBXNativeTarget "IonifitsWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A34F2A27C9731C0088DD9A /* Debug */,
+				50A34F2B27C9731C0088DD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504EC2FC1FED79650016851F /* Project object */;
+}
